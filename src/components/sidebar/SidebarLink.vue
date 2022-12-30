@@ -41,27 +41,31 @@ export default {
 .link {
   display: flex;
   align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
 
   cursor: pointer;
   position: relative;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 13px;
   user-select: none;
+  
 
   margin: 0.1em 0;
   padding: 0.4em;
   border-radius: 0.25em;
-  height: 1.5em;
+  height: 2em;
 
-  color: white;
+  color: #747381;
   text-decoration: none;
 }
 
 .link:hover {
-  background-color: var(--sidebar-item-hover);
+  background-color: rgba(129, 128, 128, 0.11);
 }
 
 .link.active {
-  background-color: var(--sidebar-item-active);
+  background-color: rgba(230, 230, 230, 0.11);
 }
 
 .link .icon {

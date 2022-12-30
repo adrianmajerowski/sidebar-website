@@ -12,12 +12,12 @@ export default {
   <Sidebar />
   <div :style="{ 'margin-left': sidebarWidth }">
     <router-view />
-  </div>
+</div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -35,5 +35,11 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+   url(./fonts/Poppins/Poppins-Regular.ttf) format("truetype");
 }
 </style>
