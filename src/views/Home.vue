@@ -12,7 +12,16 @@
         <a href="#" class="button">Book a Meeting</a>
       </div>
     </div>
-    <div class="services">
+  <div> <svg class="bg-svg" width="100%" height="667" viewBox="0 0 1617 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1617" height="667" fill="white"/>
+<rect x="195.5" y="143.5" width="1336" height="424" rx="14.5" stroke="#2C3E50"/>
+<rect x="192" y="140" width="26" height="20" fill="white"/>
+<rect x="192" y="140" width="229" height="8" fill="white"/>
+<rect x="192" y="222" width="62" height="8" transform="rotate(-90 192 222)" fill="white"/>
+<circle cx="195.5" cy="221.5" r="2.5" fill="#2C3E50"/>
+<circle cx="420.5" cy="143.5" r="2.5" fill="#2C3E50"/>
+</svg></div>
+       <div class="services">
       <h2>How can I power up your project?</h2>
       <div class="service">
         <h3>App Prototyping</h3>
@@ -29,11 +38,31 @@
       
     </div>
     <h2>Clients</h2>
-    <div class="logo-row">
-  <img src="@/assets/linkedin.png" alt="LinkedIn Logo" style="width: 80px; height: 80px;" />
-  <img src="@/assets/linkedin.png" alt="LinkedIn Logo" style="width: 80px; height: 80px;" />
-  <img src="@/assets/linkedin.png" alt="LinkedIn Logo" style="width: 80px; height: 80px;" />
-</div>
+  <div class="logo-row">
+    <div class="client-box">
+      <div class="rectangle-22"></div>
+      <img class="client-img" src="@/assets/hero.jpg"/>
+      <div class="rectangle-23"></div>
+      <div class="client-content">Hi, it’s me.<br />Book a call.</div>
+      <div class="button">case study</div>
+    </div>
+
+    <div class="client-box">
+      <div class="rectangle-22"></div>
+      <img class="client-img" src="invest-in-pomerania-logo-1.png"/>
+      <div class="rectangle-23"></div>
+      <div class="client-content">Hi, it’s me.<br />Book a call.</div>
+      <div class="button">case study</div>
+    </div>
+
+    <div class="client-box">
+      <div class="rectangle-22"></div>
+      <img class="client-img" src="invest-in-pomerania-logo-1.png"/>
+      <div class="rectangle-23"></div>
+      <div class="client-content">Hi, it’s me.<br />Book a call.</div>
+      <div class="button">case study</div>
+    </div>
+  </div>
 
     <div class="contact">
       <h2>Contact Us</h2>
@@ -160,6 +189,7 @@
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 30px;
+    margin-left: 20px;
   }
 
   .services .service {
@@ -170,6 +200,8 @@
     padding: 150px 0 150px 0;
     width: 50%;
     text-align: center;
+    margin-right: 130px;
+    margin-left: -90px;
     
   }
 
@@ -283,4 +315,62 @@
     color: #fff;
     font-size: 14px;
   }
+
+  .bg-svg{
+    margin-bottom: -610px;
+
+  }
+
+  .client-box,
+.client-box * {
+  box-sizing: border-box;
+}
+.client-box {
+  width: 351px;
+  height: 556px;
+  position: relative;
+}
+.rectangle-22 {
+  background: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  border: solid #000000;
+  border-width: 1px;
+  width: 351px;
+  height: 338px;
+  position: absolute;
+  left: 0px;
+  top: 556px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.client-img {
+  border-radius: 15px 15px 0px 0px;
+  border: solid #000000;
+  border-width: 1px;
+  width: 351px;
+  height: 219px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-23 {
+  background: #d9d9d9;
+  border-radius: 5px;
+  width: 252.08px;
+  height: 43px;
+  position: absolute;
+  left: 49.46px;
+  top: 492px;
+}
+.client-content {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 49.46px;
+  top: 255px;
+  width: 252.08px;
+  height: 203px;
+}
+
 </style>
